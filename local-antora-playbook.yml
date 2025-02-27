@@ -1,0 +1,17 @@
+site:
+  title: JobAps Online Help 
+  url: /JobAps-Help
+  start_page: /JobAps-Help/modules/ROOT/pages/index.adoc
+content: 
+  sources: 
+    - url: ./docs/modules/home
+      branches: HEAD
+      start_path: docs
+  sources: 
+    - url: ./docs/modules/admin
+      branches: HEAD
+      start_path: docs
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
