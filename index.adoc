@@ -1,0 +1,8 @@
+= Welcome!
+:description: Home page for JobAps Online Help.
+
+== . . . to the JobAps Online Help System.
+
+This is your go to source for assistance when you have a question about a particular module, a process or a data field within JobAps.
+
+The topics within the help system are organized so as to coincide with the JobAps user interface tab structure. By clicking a topic on the left pane, the system displays the selected topic's content in the right pane as well as dynamically expanding the topic displaying all of its related sub-topics, if applicable. For your convenience, a Related Topic(s) section has also been included at the end of each topic content should you wish to jump to another topic relating to the one you selected. 
