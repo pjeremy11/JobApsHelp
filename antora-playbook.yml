@@ -1,13 +1,31 @@
 site:
-  title: JobAps Online Help 
-  url: /Help_CORE
-  start_page: /Help_CORE/modules/ROOT/pages/index.adoc
+  title: JobAps Help 
+  # url: /Help_CORE
+  start_page: JobAps-Intro::index.adoc
 content: 
   sources: 
-    - url: ./docs/modules/home
-      branches: HEAD
+    - url: https://github.com/pjeremy11/JobAps-Intro.git
+      branches: [main]
       start_path: docs
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
     snapshot: true
+asciidoc:
+  attributes:
+  #  experimental: ''
+  #  idprefix: ''
+  #  idseparator: '-'
+  #  page-pagination: ''
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+
+
+# NOTE: Run these 
+#   npx antora -v - confirm 
+#   node -e "fs.writeFileSync('package.json', '{}')"
+#   npm i -D -E @antora/cli@3.1
+#    npm i -D -E @antora/site-generator@3.1
+#   demo-site $ npx antora antora-playbook.yml
